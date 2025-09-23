@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF5E1;
+    color: #333;
+    line-height: 1.5;
+}
+
+
+header {
+    background-color: #8B0000;
+    color: #FFDAB9;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+
+.bienvenida {
+    text-align: center;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    color: white;
+    padding: 50px 20px;
+}
+
+.bienvenida h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.bienvenida p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 30px;
+}
+
+
+.formulario {
+    flex: 1 1 400px;
+    background-color: #FFF8F0;
+    border: 2px solid #FF5E62;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+.formulario:hover {
+    transform: translateY(-5px);
+}
+
+.formulario h2 {
+    color: #B22222;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+
+.botones {
+    text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    opacity: 0.85;
+}
+
+.info-contacto {
+    flex: 1 1 300px;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.info-contacto h2 {
+    color: #8B0000;
+    margin-bottom: 20px;
+}
+
+.info-contacto .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.info-contacto .card:hover {
+    transform: translateY(-5px);
+}
+
+.info-contacto i {
+    font-size: 1.5rem;
+    color: #ff5e62;
+}
+
+
+footer {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
