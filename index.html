@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollería El Buen Sabor - Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo 1.png" alt="Logo Pollería">
+        <h1>Pollería RH Brasa & Sabor</h1>
+    </header>
+
+    <section class="bienvenida">
+        <marquee behavior="alternate">
+            <h2>¡El mejor pollo a la brasa en tu mesa!</h2>
+        </marquee>
+        <p>Haz tu pedido o contáctanos directamente. Estamos listos para atenderte con la mejor sazón.</p>
+    </section>
+
+    <main>
+        <section class="hero container">
+            <h2>El mejor pollo a la brasa de la ciudad</h2>
+            <p>Sabores únicos, ambiente familiar y atención de primera. ¡Ven a disfrutar de nuestra especialidad!</p>
+            <img src="pollo a la brasa.jpg" alt="Pollo a la brasa" class="hero-img">
+        </section>
+
+        <section id="menu" class="menu container">
+            <h2>Nuestro Menú</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="medio pollo.jpg" alt="medio pollo a la brasa" class="card-img" height="250px" width="200px">
+                    <h3>Pollo a la Brasa (1/2)</h3>
+                    <p>S/ 18.00</p>
+                </div>
+                <div class="card">
+                    <img src="combo familiar.jfif" alt="Combo familiar" class="card-img">
+                    <h3>Combo Familiar</h3>
+                    <p>S/ 45.00</p>
+                </div>
+                <div class="card">
+                    <img src="alitas.jpg" alt="Alitas picantes" class="card-img" height="250px" width="200px">
+                    <h3>Alitas Picantes</h3>
+                    <p>S/ 22.00</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="promos" class="promos container">
+            <h2>Promociones</h2>
+            <p>Disfruta de nuestras promociones semanales y sorpréndete con los mejores precios.</p>
+            <img src="combo semanal.jpg" alt="Promoción de pollo" class="promo-img">
+        </section>
+
+        <section class="pedido-contacto container">
+            <div class="formulario">
+                <h2>Realiza tu Pedido</h2>
+                <form>
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="987654321" required>
+
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion" placeholder="Ej: Av. Los Álamos 123" required>
+
+                    <label for="pollo">Tipo de Pollo:</label>
+                    <select name="pollo" id="pollo">
+                        <option value="entero">Pollo Entero</option>
+                        <option value="medio">Medio Pollo</option>
+                        <option value="cuarto">Un Cuarto</option>
+                    </select>
+
+                    <label>Acompañamientos:</label>
+                    <div class="checks">
+                        <label><input type="checkbox" value="papas"> Papas Fritas</label>
+                        <label><input type="checkbox" value="ensalada"> Ensalada</label>
+                        <label><input type="checkbox" value="cremas"> Cremas Variadas</label>
+                        <label><input type="checkbox" value="arroz"> Arroz Chaufa</label>
+                    </div>
+
+                    <label>Método de Pago:</label>
+                    <div class="radios">
+                        <label><input type="radio" name="pago" value="efectivo"> Efectivo</label>
+                        <label><input type="radio" name="pago" value="tarjeta"> Tarjeta</label>
+                        <label><input type="radio" name="pago" value="yape"> Yape/Plin</label>
+                    </div>
+
+                    <label for="comentario">Comentarios:</label>
+                    <textarea id="comentario" name="comentario" placeholder="Ej: Sin ají, más papas, etc."></textarea>
+
+                    <div class="botones">
+                        <input type="submit" value="Confirmar Pedido">
+                        <input type="reset" value="Borrar">
+                    </div>
+                </form>
+            </div>
+
+            <aside class="info-contacto">
+                <h2>Contáctanos</h2>
+                <div class="card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Av. Vista Alegre 234, Victor Larco</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>987 654 321</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Lunes a Domingo: 12:00 AM - 10:00 PM</p>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>Atención por WhatsApp</p>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <section id="ubicacion" class="ubicacion container">
+        <h2>Encuéntranos</h2>
+        <p>Av. Vista Alegre 234, Victor Larco  De Lunes a Domingo: 12:00 AM - 10:00 PM</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7899.281707895664!2d-79.05131030558935!3d-8.13799584022998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d6966bcfff5%3A0xbac900770a5eb42e!2sLa%20Polleria%20Express!5e0!3m2!1ses-419!2spe!4v1758645244714!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        © 2025 Pollería El Buen Sabor - Sazón y calidad para toda la familia
+    </footer>
+
+</body>
+</html>
